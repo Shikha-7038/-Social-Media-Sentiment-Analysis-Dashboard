@@ -21,8 +21,6 @@ This project implements a **real-time sentiment analysis dashboard** that automa
 ## 🏗️ Architecture
 Input Text → Cleaning → TF-IDF → Logistic Regression → Sentiment → Dashboard
 
-text
-
 ## 🛠️ Tech Stack
 
 | Component | Technology |
@@ -36,7 +34,7 @@ text
 | Dashboard | Streamlit |
 
 ## 📁 Project Structure
-
+```
 Social-Media-Sentiment-Analysis-Dashboard/
 ├── data/ # Datasets (raw and processed)
 ├── src/ # Source code modules
@@ -52,41 +50,9 @@ Social-Media-Sentiment-Analysis-Dashboard/
 ├── requirements.txt # Dependencies
 ├── main.py # Orchestration script
 └── README.md # Documentation
+```
 
-
-## 🚀 Quick Start
-
-### Prerequisites
-- Python 3.9 or higher
-- Git
-
-### Installation
-
-```bash
-# Clone repository
-git clone https://github.com/YOUR_USERNAME/Social-Media-Sentiment-Analysis-Dashboard.git
-cd Social-Media-Sentiment-Analysis-Dashboard
-
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Download NLTK data
-python -c "import nltk; nltk.download('stopwords'); nltk.download('punkt')"
-Running the Project
-bash
-# Run complete pipeline (data creation → cleaning → training)
-python main.py --step all
-
-# Launch dashboard
-streamlit run app/dashboard.py
-📊 Dashboard Preview
-https://images/dashboard_preview.png
-
-📈 Model Performance
+## 📈 Model Performance
 Metric	Score
 Accuracy	85.67%
 Precision	85.42%
@@ -94,7 +60,7 @@ Recall	85.67%
 F1-Score	85.48%
 https://outputs/figures/confusion_matrix.png
 
-💼 Business Applications
+## 💼 Business Applications
 Brand Reputation Monitoring - Track public sentiment in real-time
 
 Customer Feedback Analysis - Automatically categorize reviews
@@ -105,7 +71,7 @@ Competitor Analysis - Compare sentiment across competitors
 
 Product Launch Tracking - Monitor reactions to new products
 
-📝 Key Learnings
+## 📝 Key Learnings
 This project demonstrates:
 
 End-to-end ML project implementation

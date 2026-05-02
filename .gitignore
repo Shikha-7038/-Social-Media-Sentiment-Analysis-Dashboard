@@ -24,7 +24,6 @@ venv/
 # Logs and outputs
 logs/
 *.log
-outputs/
 
 # OS files
 .DS_Store
@@ -32,10 +31,6 @@ Thumbs.db
 
 # Streamlit
 .streamlit/secrets.toml
-
-# Model files (if large)
-models/*.pkl
-models/*.joblib
 
 # Environment variables
 .env
